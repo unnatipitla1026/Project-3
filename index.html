@@ -2,45 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Website Structure</title>
 </head>
 <body>
 
-    <!-- 1. Header Section -->
+    <!-- Header Section -->
     <header>
+        <div>
+            <h1>SATIC</h1>
+        </div>
+
         <nav>
-            <h1>Header Section</h1>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#content">About</a></li>
+                <li><a href="#footer">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- 2. Hero Section -->
+    <!-- Hero Section -->
     <section id="hero">
-        <h2>Hero Section</h2>
-        <p>This is the hero area.</p>
+        <h2>Welcome to Our Website</h2>
+        <p>This is the hero section where main message goes.</p>
+        <button>Get Started</button>
     </section>
 
-    <!-- 3. Content Sections -->
-    <main>
-        <section>
-            <h3>Content Section 1</h3>
-            <p>Some content goes here.</p>
-        </section>
+    <!-- Content Section -->
+    <section id="content">
+        <article>
+            <h3>Main Content Heading</h3>
+            <p>
+                This is the main content area.  
+                You can add text, images, cards, or any information here.
+            </p>
+        </article>
 
-        <section>
-            <h3>Content Section 2</h3>
-            <p>Some more content goes here.</p>
-        </section>
-    </main>
+        <article>
+            <h3>Another Content Block</h3>
+            <p>
+                This section can be used for services, features, or details.
+            </p>
+        </article>
+    </section>
 
-    <!-- 4. Footer Section -->
-    <footer>
-        <p>Footer Section</p>
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div>
+            <h4>About Us</h4>
+            <p>Short description about the website or company.</p>
+        </div>
+
+        <div>
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <p>© 2026 Satic. All rights reserved.</p>
+        </div>
     </footer>
 
 </body>
