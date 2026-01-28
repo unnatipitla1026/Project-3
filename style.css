@@ -201,7 +201,7 @@ body {
 
 /* FOOTER */
 footer{
-  background:var(--dark);
+  background:black;
   color:#fff;
   padding:50px 60px;
 }
