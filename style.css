@@ -93,7 +93,7 @@ body {
 /* HERO */
 .hero{
   min-height:100vh;
-  background:linear-gradient(120deg,var(--primary),var(--secondary));
+  background:linear-gradient(135deg,#6366f1,#22d3ee);
   display:flex;
   align-items:center;
   justify-content:space-between;
