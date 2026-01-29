@@ -15,19 +15,17 @@ section{
 }
 
 /* ---------- NAVBAR ---------- */
-header{
+.navbar{
+    background:#0f172a;
     position:fixed;
+    display:flex;
     top:0;
     left:0;
     width:100%;
-    background:#0f172a;
-    z-index:1000;
-}
-.navbar{
-    display:flex;
     justify-content:space-between;
     align-items:center;
     padding:15px 8%;
+    z-index:1000;
 }
 .logo{
     color:#38bdf8;
