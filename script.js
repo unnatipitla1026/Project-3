@@ -1,4 +1,3 @@
-/* Hamburger menu */
-function toggleMenu(){
-    document.getElementById("navLinks").classList.toggle("active");
+function showLove(){
+    alert("You are special 💖 Koi baat nai... sab theek ho jayega 🥰🌸");
 }
